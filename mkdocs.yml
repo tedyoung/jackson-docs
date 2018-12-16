@@ -1,6 +1,6 @@
-site_name: Jackson Data Processer Documentation
-site_description: Documentation for the Jackson Data Processor: JSON, XML, YAML, etc.
-site_author: FasterXML, et al
+site_name: "Jackson Data Processor Documentation"
+site_description: "Documentation for the Jackson Data Processor: JSON, XML, YAML, etc."
+site_author: "FasterXML, et al"
 
 # Copyright
 copyright: 'Copyright &copy; 2018, to be determined?'
@@ -57,10 +57,10 @@ nav:
   - Introduction: index.md
   - Quick Start: quick-start.md
   - JavaDoc: javadoc.md
+  - Release Notes: release-notes.md
   - Features:
     - Data Binding: databind.md
     - Annotations: annotations.md
     - Streaming: streaming.md
     - Configuration: configuration.md
-  - About: about.md
 
