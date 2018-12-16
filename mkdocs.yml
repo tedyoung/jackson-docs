@@ -1,6 +1,6 @@
-site_name: The "Help With Project for School" Site
-site_description: Help With Project for School is a series of solution walkthroughs to common projects and "homework" problems that students encounter in school, written in Modern Java. It's great for new programmers or those who want to see solutions from an industry professional.
-site_author: Ted M. Young
+site_name: Jackson Data Processer Documentation
+site_description: Documentation for the Jackson Data Processor: JSON, XML, YAML, etc.
+site_author: FasterXML, et al
 
 # Copyright
 copyright: 'Copyright &copy; 2018, to be determined?'
