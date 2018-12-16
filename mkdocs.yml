@@ -57,9 +57,13 @@ nav:
   - Introduction: index.md
   - Quick Start: quick-start.md
   - Project Details: details.md
-  - Features:
-    - Data Binding: databind.md
-    - Annotations: annotations.md
-    - Streaming: streaming.md
-    - Configuration: configuration.md
+  - Data Binding: databind.md
+  - Annotations:
+    - Overview: annotations.md
+    - Properties: annotations-properties.md
+    - Mix-Ins: annotations-mixins.md
+    - "Serialization/Deserialization": annotations-serialization.md
+    - JAX-RS: annotations-jax-rs.md
+  - Streaming: streaming.md
+  - Configuration: configuration.md
 
