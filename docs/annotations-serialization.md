@@ -1,10 +1,12 @@
+<!-- extracted from https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations -->
+ 
 ## General Annotations
 
 * `@JsonFormat`: general annotation that has per-type behavior; can be used for example to specify format to use when serializing Date/Time values.
 * `@JsonUnwrapped`: property annotation used to define that value should be "unwrapped" when serialized (and wrapped again when deserializing), resulting in flattening of data structure, compared to POJO structure.
 * `@JsonView`: property annotation used for defining View(s) in which property will be included for serialization, deserialization.
 
-## Deserialization-Specific
+## Deserialization Annotations
 
 * `@JacksonInject`: annotation to indicate that property should get its value via "injection", and not from data (JSON).
 * `@JsonAnySetter`: annotation used for defining a two-argument method as "any setter", used for deserializing values of otherwise unmapped JSON properties
@@ -12,7 +14,7 @@
 * `@JsonSetter`: alternative to @JsonProperty, for marking that specified method is a "setter-method"
 * `@JsonEnumDefaultValue` (added in 2.8): annotation used for defining a default value when deserializing unknown Enum values. Requires config `READ_UNKNOWN_ENUM_VALUES_USING_DEFAULT_VALUE` feature to be enabled. See example snippet in [Deserialization Features](https://github.com/FasterXML/jackson-databind/wiki/Deserialization-Features#value-conversions-coercion)
 
-## Serialization-Specific Annotations
+## Serialization Annotations
 
 * `@JsonAnyGetter`: annotation used to define a getter as "any getter", which returns a `java.util.Map`, contents of which will be serialized as additional properties for JSON Object, along with regular properties that the Object may have.
 * `@JsonGetter`: alternative to @JsonProperty, for marking that specified method is a "getter-method"

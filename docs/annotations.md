@@ -1,6 +1,5 @@
-*source: https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations*
+<!-- extracted from https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations -->
 
-## Properties
 
 * [Properties](annotations-properties.md): Naming, Inclusion, and Describing
 * [Mix-ins](annotations-mixins.md): Mixing in annotations for code you don't own.

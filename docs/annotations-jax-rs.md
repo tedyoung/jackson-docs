@@ -1,5 +1,6 @@
+<!-- extracted from https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations -->
 
-## Use with JAX-RS (DropWizard, Jersey)
+## Use with JAX-RS (Dropwizard, Jersey)
 
 Although value annotations are usable anywhere Jackson itself is, without extra work, there are some additional things to consider when using Jackson on a JAX-RS container.
 Such containers require use of [Jackson JAX-RS provider](../../jackson-jaxrs-providers) (or equivalent implementation of bit of glue to register Jackson for converting content between external format like JSON, and POJOs).

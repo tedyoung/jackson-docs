@@ -2,6 +2,8 @@
   <dictionary name="ted">
     <words>
       <w>deserialized</w>
+      <w>deserializing</w>
+      <w>dropwizard</w>
     </words>
   </dictionary>
 </component>

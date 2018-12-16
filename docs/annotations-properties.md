@@ -1,5 +1,4 @@
-*source: https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations*
-
+<!-- extracted from https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations -->
 
 ### Property Naming
 

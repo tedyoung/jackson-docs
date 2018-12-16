@@ -1,4 +1,4 @@
-*source: https://github.com/FasterXML/jackson-docs/wiki/JacksonMixInAnnotations*
+<!-- extracted from: https://github.com/FasterXML/jackson-docs/wiki/JacksonMixInAnnotations -->
 
 *WARNING* -- content bit out of date, could use rewriting
 
