@@ -9,3 +9,5 @@ site/
 .idea/checkstyle-idea.xml
 .idea/misc.xml
 .idea/modules.xml
+.idea/google-java-format.xml
+.idea/vcs.xml

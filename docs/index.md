@@ -1,6 +1,6 @@
-# Welcome to Jackson: The JSON Processor
+# Welcome to Jackson: The Data Processor
 
-Jackson is a multi-purpose Java library for processing data in the [JSON](http://json.org) data format. Jackson aims to be the best possible combination of fast, correct, lightweight, and ergonomic for developers.
+Jackson is a multi-purpose Java library for processing data in many popular textual and binary formats, such as [JSON](http://json.org), XML, YAML, Avro, Protobuf, and more. Jackson aims to be the best possible combination of fast, correct, lightweight, and ergonomic for developers.
 
 ## Quick-Start
 
