@@ -64,6 +64,7 @@ nav:
     - Mix-Ins: annotations-mixins.md
     - "Serialization/Deserialization": annotations-serialization.md
     - JAX-RS: annotations-jax-rs.md
+    - Objects, Identity, and Types: annotations-identity-types-refs.md
   - Streaming: streaming.md
   - Configuration: configuration.md
 
