@@ -1,0 +1,11 @@
+# don't commit the generated site
+site/
+
+# macos junk
+.DS_Store
+
+# unneeded idea stuff
+.idea/workspace.xml
+.idea/checkstyle-idea.xml
+.idea/misc.xml
+.idea/modules.xml

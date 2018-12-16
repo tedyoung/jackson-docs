@@ -1,2 +1,3 @@
-# jackson-docs
-Strawman docs site for Jackson data processor
+# Jackson New Docs
+
+Strawman new docs site for the Jackson data processor.

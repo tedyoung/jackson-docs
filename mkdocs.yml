@@ -1,0 +1,66 @@
+site_name: The "Help With Project for School" Site
+site_description: Help With Project for School is a series of solution walkthroughs to common projects and "homework" problems that students encounter in school, written in Modern Java. It's great for new programmers or those who want to see solutions from an industry professional.
+site_author: Ted M. Young
+
+# Copyright
+copyright: 'Copyright &copy; 2018, to be determined?'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  font:
+    text: 'Open Sans'
+    code: 'Inconsolata'
+#  feature:
+#    tabs: false
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: true
+      linenums: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+#extra:
+#  social:
+#    - type: 'twitter'
+#      link: 'https://twitter.com/'
+#    - type: 'linkedin'
+#      link: 'https://linkedin.com/in/'
+
+nav:
+  - Introduction: index.md
+  - Quick Start: quick-start.md
+  - JavaDoc: javadoc.md
+  - Features:
+    - Data Binding: databind.md
+    - Annotations: annotations.md
+    - Streaming: streaming.md
+    - Configuration: configuration.md
+  - About: about.md
+
