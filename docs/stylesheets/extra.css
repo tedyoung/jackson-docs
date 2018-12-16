@@ -11,3 +11,7 @@
     font-weight: 700;
     color: rgba(0, 0, 0, 0.75);
 }
+
+.md-typeset__table {
+   min-width: 100%;
+}

@@ -15,7 +15,3 @@ To get started quickly, see [this page](quick-start.md).
 ## JavaDoc
 
 To find the JavaDoc for a particular library, see [this page](javadoc.md).
-
-## Release Notes
-
-Release notes can be found [here](release-notes.md).
