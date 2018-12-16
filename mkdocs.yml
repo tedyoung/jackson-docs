@@ -56,7 +56,7 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - Quick Start: quick-start.md
-  - JavaDoc: javadoc.md
+  - Project Details: details.md
   - Features:
     - Data Binding: databind.md
     - Annotations: annotations.md

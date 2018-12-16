@@ -1,15 +1,6 @@
-# Finding Jackson JavaDocs
+Here you can find the details for each Jackson project, from JavaDoc to release notes.
 
-Sadly, the SEO situation for Jackson javadoc is not very good; random google searches tend to find versions of Jackson at, well, random.
-
-Jackson 2.x is maintained via a slew of individual github pages in the FasterXML Organization. 
-The javadoc for each project is published via its gh-pages branch. So, to find the javadoc for a class, you can construct a URL like this for classes in `jackson-core`:
-
-    https://fasterxml.github.io/jackson-core/javadoc/2.9/
-
-To find JavaDoc for other projects, substitute `jackson-core` with the name of the particular project you are looking for.
-
-You can also access JavaDocs via links in the individual project repositories.
+*currently the "nice" release notes are on a wiki page, vs. the release notes text file, what to point to?*
 
 Project | GitHub Repository | JavaDoc | Release Notes
 ------- | ----------------- | ------- | -------------
