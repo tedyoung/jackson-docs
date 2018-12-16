@@ -12,8 +12,8 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Inconsolata'
-#  feature:
-#    tabs: false
+  feature:
+    tabs: true
 
 extra_css:
   - 'stylesheets/extra.css'
