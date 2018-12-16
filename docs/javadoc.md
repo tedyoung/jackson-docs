@@ -16,31 +16,39 @@ Project | GitHub Repository | JavaDoc | Release Notes
 Annotations | [jackson-annotations](https://github.com/FasterXML/jackson-annotations) | [JavaDoc 2.9](https://fasterxml.github.io/jackson-annotations/javadoc/2.9/) | [Release Notes]()
 Core | [jackson-core](https://github.com/FasterXML/jackson-core) | [JavaDoc 2.9](https://fasterxml.github.io/jackson-core/javadoc/2.9/) | [Release Notes](https://github.com/FasterXML/jackson-core/blob/master/release-notes/VERSION-2.x)
 Databind | [jackson-databind](https://github.com/FasterXML/jackson-databind) | [JavaDoc 2.9](https://fasterxml.github.io/jackson-databind/javadoc/2.9/) | [Release Notes](https://github.com/FasterXML/jackson-databind/blob/master/release-notes/VERSION-2.x)
-Binary Data Formats | [jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary/) | [Avro](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/avro/2.9/) | [Release Notes](https://github.com/FasterXML/jackson-dataformats-binary/blob/master/release-notes/VERSION-2.x)
+**Textual Data Formats**
+[CSV wiki](https://github.com/FasterXML/jackson-dataformat-csv/wiki) | [CSV repo](https://github.com/FasterXML/jackson-dataformat-csv/) | [CSV JavaDoc](https://fasterxml.github.io/jackson-dataformat-csv/javadoc/2.9/) | [CSV Release Notes](https://github.com/FasterXML/jackson-dataformat-csv/blob/master/release-notes/VERSION-2.x)
+[Properties wiki](https://github.com/FasterXML/jackson-dataformat-properties/wiki) (New since 2.7.4) | [Properties repo]() | [Properties JavaDoc]() | [Properties Release Notes]()
+[XML](https://github.com/FasterXML/jackson-dataformat-xml/wiki) | [repo]() | [JavaDoc]() | [Release Notes]()
+[YAML](https://github.com/FasterXML/jackson-dataformat-yaml/wiki) | [repo]() | [JavaDoc]() | [Release Notes]()
+**Binary Data Formats** [wiki](https://github.com/FasterXML/jackson-dataformats-binary/wiki) | [jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary/) | | [Release Notes](https://github.com/FasterXML/jackson-dataformats-binary/blob/master/release-notes/VERSION-2.x)
+ | | [Avro](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/avro/2.9/)  |
  | | [CBOR](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/cbor/2.9/) |
  | | [Ion](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/ion/2.9/) |
- | | [Protobuf](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/protobuf/2.9/) |
+ (New since 2.6) | | [Protobuf](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/protobuf/2.9/) |
  | | [Smile](https://fasterxml.github.io/jackson-dataformats-binary/javadoc/smile/2.9/) | 
 
+## Artifacts
 
+New releases are done using the Sonatype Maven repository, from which they are automatically copied (with an hour of delay) to the Central Maven repository.
 
+### Group ID
 
+`com.fasterxml.jackson.module`
 
-## Core Repositories
+###  Artifact IDs
 
- * [Annotations](https://github.com/FasterXML/jackson-annotations)
- * [Core (streaming API)]()
- * [Databind](https://github.com/FasterXML/jackson-databind)
+`jackson-dataformat-avro`
 
-## Textual Data Formats
+`jackson-dataformat-cbor`
 
-* [CSV](https://github.com/FasterXML/jackson-dataformat-csv/wiki)
-* [Properties](https://github.com/FasterXML/jackson-dataformat-properties/wiki) (New since 2.7.4)
-* [XML](https://github.com/FasterXML/jackson-dataformat-xml/wiki)
-* [YAML](https://github.com/FasterXML/jackson-dataformat-yaml/wiki)
+`jackson-dataformat-ion`
 
-## Binary Data Formats
-* [Avro](https://github.com/FasterXML/jackson-dataformats-binary/wiki)
-* [CBOR](https://github.com/FasterXML/jackson-dataformats-binary/wiki)
-* [Protobuf](https://github.com/FasterXML/jackson-dataformats-binary/wiki) (New since 2.6)
-* [Smile](https://github.com/FasterXML/jackson-dataformats-binary/wiki)
+`jackson-dataformat-protobuf`
+
+`jackson-dataformat-smile`
+
+## TO DO
+
+Move artifact info info table above?
+
